@@ -1,8 +1,8 @@
-word_array = ['my', 'jack', 'is', 'name']
+word = ['my', 'jack', 'is', 'name']
 
 result = ""
 
 for i in [0, 3, 2, 1]:
-    result += word_array[i] + " "
+    result += word[i] + " "
 
 print(result)
